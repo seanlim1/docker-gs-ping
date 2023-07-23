@@ -19,3 +19,6 @@ jobs:
 
       - name: Test
         run: go test -v ./...
+
+      - name: Post Test
+        run: echo "would this execute?"
